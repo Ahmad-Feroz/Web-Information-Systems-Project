@@ -13,6 +13,6 @@ Guide to the files:
 
 3. "images" folder: all necessary images for designing of the website.
 
-4. "artworkPics" folder: when someone upload an artwork it will store to this folder.
+4. "artworkPics" folder: when a user upload an artwork it will store to this folder.
 
-5. "profilePics" folder: when someone upload a profile picture it will store to this folder.
+5. "profilePics" folder: when a user upload a profile picture it will store to this folder.
