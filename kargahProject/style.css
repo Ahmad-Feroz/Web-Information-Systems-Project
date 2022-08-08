@@ -1,0 +1,662 @@
+/* 
+---note--- 
+colors:
+
+dark1 = #212427
+shadow = #111010
+light1 = #d1af78
+light2 = #876e54
+dark2 = #343a40
+dark3 =  #515255
+dark4 = #8f8f8f
+
+*/
+
+/* ----------------------------- index.html -------------------------------- */
+#title {
+    background-color: #212427;
+    overflow: hidden;
+    
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 0.5rem 0 0.5rem;
+    z-index: 1;
+}
+
+.navbar-brand {
+    border: 2px solid #d1af78;
+    border-top: none;
+    border-right: none;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    padding: 0 1%;
+
+}
+
+ul {
+    margin-right: 2rem;
+}
+.nav-item {
+    padding: 0 18px;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.drop-btn {
+    margin-right: 20px;
+    color: gray;
+}
+.drop-btn:hover {
+    color: rgb(171, 171, 171);
+}
+
+.dropdown-item {
+    color: gray;
+    font-size: 14px;
+}
+.dropdown-item:hover {
+    background-color: transparent;
+    color: rgb(189, 186, 186);
+
+}
+
+
+
+
+/* Title Image */
+.title-image {
+    width: 80%;
+    height: 100%;
+    box-shadow: 40px -2px 50px 30px #111010;
+}
+
+/* title Text */
+.titleText-container {
+    margin: 7% 0;
+    text-align: center;
+    border-top: 2px solid #d1af78;
+    border-bottom: 2px solid #d1af78;
+    padding-bottom: 5%;
+}
+
+.titleText-container h1 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.7;
+    color: white;
+    text-align: center;
+    padding: 4rem;
+    margin-top: 4rem;
+}
+
+
+.titleText-container span {
+    color: #d1af78;
+}
+
+/* more button (gallery) */
+.titleText-container a {
+    color: #d1af78;
+    border: 1px solid #d1af78;
+    padding: 12px;
+    margin-bottom: 5%;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.titleText-container a:hover {
+    background-color: #d1af78;
+    color: black;
+}
+
+
+/* Features section */
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+#features i {
+    color: #d1af78;
+    margin-bottom: 1.2rem;
+}
+
+#features i:hover {
+    color: #876e54;
+}
+
+#features h3 {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+#features p {
+    color: #8f8f8f;
+}
+
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+
+/* artworks seciton (carousel)*/
+
+#artworks {
+    background-color: #343a40;
+}
+
+.carousel-item {
+    padding: 5% 8% 7% 8%;
+}
+
+.carousel-img {
+    width: 32%;
+    height: 60%;
+    padding-left: 4%;
+}
+
+
+.carousel-item h3{
+    font-size: 2.5rem;
+    color: white;
+    padding: 3% 4%;
+
+}
+
+.more-btn-container {
+    padding-bottom: 2%;
+    text-align: center;
+}
+/* carousel more buttons */
+.more-btn-container a{
+    color: #d1af78;
+    border: 1px solid #d1af78;
+    padding: 0.8%;
+    margin-bottom: 5%;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.more-btn-container a:hover{
+    color: #343a40;
+    background-color: #d1af78;
+}
+/* Artists section (carousel) */
+#artists {
+    background-color: #515255;
+}
+
+/* ---------------------------------- About ----------------------------------- */
+
+.aboutImg-container {
+    background-image: url("images/about_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    text-align: center;
+    color: white;
+    margin: 10% 33%;
+}
+.about-text h1 {
+    font-family: 'Open Sans';
+    font-size: 4rem;
+    line-height: 1;
+    color: #d1af78;
+    padding-bottom: 5%;
+    border-bottom: 2px solid #d1af78;
+}
+
+.about-text h2 {
+    font-family: 'Open Sans';
+    font-size: 3rem;
+    padding-bottom: 5%;
+}
+
+/* -------------------------------- Artists --------------------------------------- */
+
+.artists-section {
+    background-image: url('images/artistsBackground.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+}
+/* search box */
+.search-data form {
+    text-align: center;
+    margin: 5% 32.5% 0 32.5%;
+    background-color: white;
+    border-radius: 50px;
+    padding-left: 2px;
+    height: 45px;
+    
+}
+.search-data input {
+   width: 85%;
+   padding: 10px;
+   border-radius: 50px;
+   border: none;
+   outline: none;
+}
+.search-data button {
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #d1af78;
+    height: 90%;
+    border-radius: 100%;
+    width: 40px;
+    margin-left: auto;
+    
+}
+
+/* title of the artist page */
+.artists-title {
+    text-align: center;
+    margin: 5% 0;
+    color: white;
+}
+.artists-title h6{
+    font-style: italic;
+    color: #d1af78;
+}
+
+/* conatiner for artists photos */
+.artists-container {
+    margin: 10%;
+    background-color: #515255;
+    padding: 5%;
+    color: white;
+}
+.artists-container div div {
+    border-radius: 5px;
+    margin-bottom: 3%;
+}
+
+.artists-container div div:hover {
+    transform: scale(1.02);
+}
+
+.artists-container a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 2%;
+}
+
+
+/* every single artist in the artists.html */
+a div {
+    margin-top: 5%;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a h3 {
+    margin-top: 7%;
+    text-align: center;
+}
+
+.artists-container a:hover {
+    color: #d1af78;
+} 
+
+
+/* artists page numbers */
+.artists-pageNum {
+    text-align: center;
+}
+
+.artists-pageNum a {
+    text-decoration: none;
+    margin: 20px 5px;
+    border: 1px solid #d1af78;
+    border-radius: 100%;
+    padding: 5px 12px;
+    color: #d1af78;
+    text-align: center;
+}
+
+.artists-pageNum a:hover {
+    background-color: #d1af78;
+    color: black;
+
+}
+
+/* ------------------------------------------ profle.html ---------------------------------------*/
+
+/* artist Name and biography */
+.artist-bio {
+    text-align: center;
+    color: white;
+    background-color: #212427;
+}
+.artist-bio h1 {
+    padding: 10% 5% 5% 5%;
+    margin-top: 5%;
+    font-size: 4rem;
+    color: #d1af78;
+}
+
+.artist-bio p {
+    padding: 0% 5% 5% 5%;
+    margin: 0 5%;
+}
+
+/* artist profile pic */
+
+.artist-profilePic {
+    text-align: center;
+    background-color: #8f8f8f;
+    padding: 10%;
+}
+
+.artistPic {
+    margin: auto;
+    width: 350px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* atist profile buttons */
+#profile-btn {
+    text-align: center;
+    background-color: #876e54;
+    padding: 2%;
+}
+
+#profile-btn button{
+    margin: 2% 2%;
+}
+
+#profile-btn form {
+    text-align: center;
+    display: none;
+}
+
+#profile-btn form input, #profile-btn form textarea{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+/* atist all Artworks */
+.artists-container p {
+    text-align: center;
+    color: #8f8f8f;
+}
+
+.artwork-title h1{
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+}
+
+
+/* -------------------------------------------- Signup.html----------------------------------- */
+
+.signup-header {
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+}
+
+.signup-container {
+    text-align: center;
+    border: 1px solid #d1af78;
+    margin: 5% 35%;
+    padding: 5% 0%;
+    border-radius: 10px;
+
+}
+
+.signup-container input {
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #d1af78;
+    color: #d1af78;
+    padding: 2% 0;
+}
+.signup-container p {
+    color: red;
+    font-size: 14px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: all 5000s ease-in-out 0s;
+    transition-property: background-color, color;
+}
+
+.signBtn {
+    padding: 2%;
+    width: 30%;
+    border-radius: 30px;
+    color: black;
+    background-color: #d1af78;
+    border: none;
+    margin-top: 10%;
+}
+
+.signBtn:hover {
+    background-color: #876e54;
+}
+
+
+/* -------------------------------------------  clickArtwork.php  ---------------------------------- */
+.artwork-artist {
+    text-align: center;
+    margin-top: 5%;
+    color: #d1af78;
+    text-decoration: none;
+}
+.artwork-artist a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile-circle {
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.artwork-artist h4 {
+    margin-top: 1%;
+}
+
+.artwork-artist h1 {
+    margin-top: 3%;
+    color: #d1af78;
+}
+
+.artwork-container {
+    text-align: center;
+    margin: 5% 30%;
+    width: 40%;
+}
+
+.artwork-container .artworkImg {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+/* footer section */
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer i {
+    width: 40px;
+    margin: 20px 10px;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #343a40;
+}
+
+#footer i:hover {
+    border-color: #d1af78;
+    color: #876e54;
+}
+
+
+
+/* Responsive */
+/* for md size screen */
+@media (max-width: 990px) {
+
+    /* navbar brand or website name */
+    .navbar-brand {
+        margin: auto;
+    }
+
+    /* home page image */
+    .title-image {
+        width: 100%;
+    }
+
+    /* images inside carousel */
+    .carousel-img {
+        height: 40%;
+    }
+        
+    /* about */
+    .about-image {
+        display: none;
+    }
+    .about-text {
+        margin: 10% 10%;
+    }
+    .aboutImg-container {
+        background-image: url("images/small_about_img.jpg");
+    }
+    .signup-container {
+        margin: 5% 25%;;
+    }
+    /* artists search box */
+    .search-data form {
+        margin: 5% 25% 0 25%;
+    }
+
+    /* for every artwork when open */
+    .artwork-container {
+        text-align: center;
+        margin: 5% 17.5%;
+        width: 65%;
+    }
+
+    /* artist profile pic */
+    .artist-profilePic {
+        padding: 8%;
+    }
+    .artistPic {
+        width: 100%;
+        height: 400px;
+    }
+
+}
+
+
+/* for sm size screen */
+@media (max-width: 765px) {
+
+    /* title section home page */
+    .home-container {
+        text-align: center;
+        background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("images/paintings/titleImage.jpg");
+    }
+    .title-image {
+        display: none;
+    }
+    .titleText-container h1{
+        font-size: 2rem;
+        
+    }
+
+    /* carousel images */
+    .carousel-img {
+        width: 45%;
+        height: 40%;
+        margin-left: 4%;
+    }
+    .last-img {
+        display: none;
+    }
+
+    /* about page */
+    .about-text h1 {
+        font-size: 3rem;
+    }
+    
+    .about-text h2 {
+        font-size: 2rem;
+    }
+
+    /* artists search box */
+    .search-data form {
+        margin: 5% 15% 0 15%;
+    }
+
+    /* for every artwork when open */
+    .artwork-container {
+        text-align: center;
+        margin: 5% 15%;
+        width: 70%;
+    }
+    .artwork-container .artworkImg {
+        height: 500px;
+    }
+
+    /* artist profile pic */
+    .artist-profilePic {
+        padding: 8%;
+    }
+    .artistPic {
+        width: 250px;
+        height: 300px;
+        }
+
+    /* conatiner for artists photos */
+    .artists-container {
+    margin: 10% 10%;
+    }
+    
+}
